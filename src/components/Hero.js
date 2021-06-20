@@ -12,7 +12,7 @@ function Hero() {
               className="block  mt-4 text-2xl text-gray-700"
               suppressContentEditableWarning={true}
             >
-              ここにテキストを入力...
+              ここに人生を入力...
             </span>
           </h1>
         </div>
