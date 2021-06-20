@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 // https://github.com/oielbanna/react-cursor-follow/blob/master/src/cursor.js
 
 const base = {
@@ -29,22 +29,28 @@ const Cursor = ({
   const [circleSize, setCircleSize] = useState(size)
   const [clicked, setClicked] = useState(false)
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     document.onmousemove = event => {
       setX(event.clientX)
       setY(event.clientY)
     }
-    document.onclick = () => {
+    document.onclick = event => {
+      let node = document.elementFromPoint(event.x, event.y)
+      if (
+        node.getAttribute("onclick") != null ||
+        node.getAttribute("href") != null
+      )
+        return
       setClicked(!clicked)
       if (clicked) setCircleSize(size)
       else setCircleSize(largeSize)
     }
-  }, [clicked])
+  }, [clicked, size, largeSize])
 
   const styles = {
     ...base,
     animation: pulse ? "pulse 2s infinite" : null,
-    "background-color": hollow ? "transparent" : color,
+    backgroundColor: hollow ? "transparent" : color,
     border: hollow ? "1px solid " + color : null,
     opacity: opacity,
     width: circleSize + "px",
