@@ -5,7 +5,7 @@ function Item(props) {
     <li class="mb-6">
       <div class="flex items-center mb-1">
         <div class="bg-gray-800 rounded-full h-8 w-8"></div>
-        <div class="flex-1 ml-12 font-medium">
+        <div class="flex-1 ml-12">
           ({props.date}) &nbsp;&nbsp; {props.title}
         </div>
       </div>
@@ -16,10 +16,13 @@ function Item(props) {
 
 function Timeline() {
   return (
-    <div className="container mx-auto text-gray-800" id="character">
-      <section className="text-gray-800 body-font">
+    <div
+      className="container mx-auto text-gray-700 font-bold mt-12 md:mt-8"
+      id="character"
+    >
+      <section>
         <div className="container mx-auto flex flex-col items-center w-10/12">
-          <div class="relative w-9/12 mt-4">
+          <div class="relative w-9/12">
             <div
               class="border-r-2 border-gray-800 absolute h-full"
               style={{ left: "15px" }}

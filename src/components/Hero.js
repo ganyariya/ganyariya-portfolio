@@ -6,10 +6,10 @@ function Hero() {
       <div className="container mx-auto py-30 w-10/12">
         <div className=" text-center md:text-left">
           <h1 className="text-3xl tracking-tight font-bold text-gray-900 md:text-4xl">
-            <span className="block xl:inline">コンテンツに恩返しを。</span>
+            <span className="block ">コンテンツに恩返しを。</span>
             <span
               contentEditable="true"
-              className="block xl:inline mt-4 text-2xl text-gray-800"
+              className="block  mt-4 text-2xl text-gray-700"
               suppressContentEditableWarning={true}
             >
               ここにテキストを入力...
