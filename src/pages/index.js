@@ -8,6 +8,7 @@ import Timeline from "../components/Timeline"
 import Works from "../components/Works"
 import Links from "../components/Links"
 import Footer from "../components/Footer"
+import Cursor from "../components/Cursor"
 
 // https://github.com/innocenzi/tailwindcss-scroll-snap
 
@@ -15,6 +16,14 @@ const IndexPage = () => {
   return (
     <div>
       <PadContainer>
+        <Cursor
+          color="black"
+          hollow={true}
+          size={80}
+          largeSize={200}
+          duration={0.6}
+          blendMode="overlay"
+        />
         <Header />
         <Hero />
         <Story />

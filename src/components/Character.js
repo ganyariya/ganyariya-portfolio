@@ -18,7 +18,7 @@ function Character() {
                   alt="ganariya の画像"
                 ></StaticImage>
               </div>
-              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-400 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
+              <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
                 <p>筑波大学情報理工学プログラムに所属する修士 2 年生。</p>
                 <p>
                   小さい頃は人と付き合うことが苦手だったらしい（今もらしい）。
