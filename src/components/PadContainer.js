@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 function PadContainer(props) {
   return <div className="mx-auto container px-10">{props.children}</div>

@@ -11,19 +11,21 @@ import Footer from "../components/Footer"
 
 // https://github.com/innocenzi/tailwindcss-scroll-snap
 
-const IndexPage = () => (
-  <div>
-    <PadContainer>
-      <Header />
-      <Hero />
-      <Story />
-      <Character />
-      <Timeline />
-      <Works />
-      <Links />
-      <Footer />
-    </PadContainer>
-  </div>
-)
+const IndexPage = () => {
+  return (
+    <div>
+      <PadContainer>
+        <Header />
+        <Hero />
+        <Story />
+        <Character />
+        <Timeline />
+        <Works />
+        <Links />
+        <Footer />
+      </PadContainer>
+    </div>
+  )
+}
 
 export default IndexPage
