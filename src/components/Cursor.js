@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react"
 // https://github.com/oielbanna/react-cursor-follow/blob/master/src/cursor.js
 
 const base = {
-  "pointer-events": "none",
-  "user-select": "none",
+  pointerEvents: "none",
+  userSelect: "none",
   display: "block",
   position: "fixed",
   transform: "translate(-50%, -50%)",
-  "border-radius": "100%",
-  "z-index": 1,
+  borderRadius: "100%",
+  zIndex: 1,
 }
 
 const Cursor = ({
