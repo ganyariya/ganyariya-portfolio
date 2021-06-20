@@ -3,11 +3,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 function Character() {
   return (
-    <div
-      className="container mx-auto text-gray-700 mt-32 font-bold"
-      id="character"
-    >
-      <section className="text-gray-800 body-font">
+    <div className="container mx-auto mt-32 font-bold" id="character">
+      <section className="text-gray-700 body-font">
         <div className="container mx-auto flex flex-col items-center w-10/12">
           <span className="text-4xl text-gray-800">Character</span>
           <div className="mx-auto mt-8">

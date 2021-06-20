@@ -17,7 +17,7 @@ function Item(props) {
 function Timeline() {
   return (
     <div
-      className="container mx-auto text-gray-700 font-bold mt-12 md:mt-10"
+      className="container mx-auto text-gray-700 font-bold mt-12 md:mt-12"
       id="character"
     >
       <section>
