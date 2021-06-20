@@ -10,7 +10,7 @@ function Character() {
       <section className="text-gray-800 body-font">
         <div className="container mx-auto flex flex-col items-center w-10/12">
           <span className="text-4xl text-gray-800">Character</span>
-          <div className="mx-auto">
+          <div className="mx-auto mt-8">
             <div className="flex flex-col sm:flex-row justify-center items-center">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <StaticImage src="./../images/ganariya_transparent.png"></StaticImage>
@@ -25,13 +25,18 @@ function Character() {
                 </p>
                 <p>好きなものは 開発・競技プログラミング・アニメ・ゲーム。</p>
                 <p>卯月コウ & おりコウを推している。</p>
-                <p className="mt-4">
+                <p className="mt-2">
                   コンテンツに恩返しをするためにエンジニア活動をしている。
                 </p>
 
-                {/* <div className="flex flex-col justify-center items-center">
-                  <span>コンテスト歴</span>
-                </div> */}
+                <div className="flex flex-col justify-center mt-8">
+                  <span>Qualification</span>
+                  <ul className="list-disc list-inside">
+                    <li>TOEIC 925</li>
+                    <li>基本情報技術者試験 合格</li>
+                    <li>応用情報技術者試験 合格</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

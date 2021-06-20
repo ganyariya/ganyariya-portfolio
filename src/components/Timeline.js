@@ -21,7 +21,7 @@ function Timeline() {
       id="character"
     >
       <section>
-        <div className="container mx-auto flex flex-col items-center w-10/12">
+        <div className="container mx-auto flex flex-col items-center w-11/12">
           <div class="relative w-9/12">
             <div
               class="border-r-2 border-gray-800 absolute h-full"
