@@ -2,7 +2,7 @@ import React from "react"
 
 function Hero() {
   return (
-    <div className="text-gray-700 mt-40 mb-60">
+    <div className="text-gray-700 mt-60 mb-60">
       <div className="container mx-auto py-30 w-10/12">
         <div className=" text-center md:text-left">
           <h1 className="text-3xl tracking-tight font-bold text-gray-900 md:text-4xl">

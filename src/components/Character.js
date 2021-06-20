@@ -13,7 +13,10 @@ function Character() {
           <div className="mx-auto mt-8">
             <div className="flex flex-col sm:flex-row justify-center items-center">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <StaticImage src="./../images/ganariya_transparent.png"></StaticImage>
+                <StaticImage
+                  src="./../images/ganariya_transparent.png"
+                  alt="ganariya の画像"
+                ></StaticImage>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-400 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
                 <p>筑波大学情報理工学プログラムに所属する修士 2 年生。</p>

@@ -2,14 +2,14 @@ import React from "react"
 
 function Item(props) {
   return (
-    <li class="mb-6">
-      <div class="flex items-center mb-1">
-        <div class="bg-gray-800 rounded-full h-8 w-8"></div>
-        <div class="flex-1 ml-12">
+    <li className="mb-6">
+      <div className="flex items-center mb-1">
+        <div className="bg-gray-800 rounded-full h-8 w-8"></div>
+        <div className="flex-1 ml-12">
           ({props.date}) &nbsp;&nbsp; {props.title}
         </div>
       </div>
-      <div class="ml-20">{props.text}</div>
+      <div className="ml-20">{props.text}</div>
     </li>
   )
 }
@@ -22,12 +22,12 @@ function Timeline() {
     >
       <section>
         <div className="container mx-auto flex flex-col items-center w-11/12">
-          <div class="relative w-9/12">
+          <div className="relative w-9/12">
             <div
-              class="border-r-2 border-gray-800 absolute h-full"
+              className="border-r-2 border-gray-800 absolute h-full"
               style={{ left: "15px" }}
             ></div>
-            <ul class="list-none m-0 p-0">
+            <ul className="list-none m-0 p-0">
               <Item date="1997" title="生まれる" />
               <Item date="2013" title="秋田高校へ" />
               <Item
