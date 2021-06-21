@@ -28,11 +28,11 @@ function Character() {
             <div className="flex flex-col sm:flex-row justify-center items-center">
               <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                 <StaticImage
-                  src="./../images/ganariya_transparent.png"
-                  alt="ganariya の画像"
+                  src="./../images/ganyariya_transparent.png"
+                  alt="ganyariya の画像"
                 ></StaticImage>
                 <div className="flex justify-center mt-4 mb-4 sm:mb-0">
-                  <Voice src="ganariya.wav" />
+                  <Voice src="ganyariya.wav" />
                   <Voice src="ganbaru.wav" />
                   <Voice src="wakaranai.wav" />
                 </div>

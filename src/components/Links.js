@@ -14,10 +14,10 @@ function Links() {
       <div className="flex flex-col justify-center items-center">
         <span className="text-4xl text-gray-800 mb-8">Links</span>
         <div className="w-10/12 mx-auto flex justify-center items-center space-x-8">
-          <a href="https://github.com/Ganariya/Ganariya">
+          <a href="https://github.com/ganyariya/ganyariya">
             <Github size={36}></Github>
           </a>
-          <a href="https://twitter.com/ganariya">
+          <a href="https://twitter.com/ganyariya">
             <Twitter size={36}></Twitter>
           </a>
           <a href="mailto:ganariya2525@gmail.com">
@@ -26,7 +26,7 @@ function Links() {
           <a href="https://zenn.dev/ganariya">
             <Zenn size={36}></Zenn>
           </a>
-          <a href="https://qiita.com/ganariya">
+          <a href="https://qiita.com/ganyariya">
             <Qiita size={36}></Qiita>
           </a>
         </div>

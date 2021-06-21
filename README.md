@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  ganariya's portfolio
+  ganyariya's portfolio
 </h1>
 
 ## 🚀 Quick Start

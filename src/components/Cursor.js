@@ -8,7 +8,7 @@ const base = {
   position: "fixed",
   transform: "translate(-50%, -50%)",
   borderRadius: "100%",
-  zIndex: 1,
+  zIndex: -100,
 }
 
 const Cursor = ({
