@@ -1,5 +1,22 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Applemusic } from "@icons-pack/react-simple-icons"
+
+function Voice(props) {
+  return (
+    <button
+      className="p-2"
+      onClick={() => {
+        const audio = new Audio(props.src)
+        audio.currentTime = 0.2
+        audio.volume = 0.5
+        audio.play()
+      }}
+    >
+      <Applemusic size={32} />
+    </button>
+  )
+}
 
 function Character() {
   return (
@@ -14,6 +31,11 @@ function Character() {
                   src="./../images/ganariya_transparent.png"
                   alt="ganariya の画像"
                 ></StaticImage>
+                <div className="flex justify-center mt-4">
+                  <Voice src="ganariya.wav" />
+                  <Voice src="ganbaru.wav" />
+                  <Voice src="wakaranai.wav" />
+                </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
                 <p>筑波大学情報理工学プログラムに所属する修士 2 年生。</p>
