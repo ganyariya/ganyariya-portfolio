@@ -31,7 +31,7 @@ function Character() {
                   src="./../images/ganariya_transparent.png"
                   alt="ganariya の画像"
                 ></StaticImage>
-                <div className="flex justify-center mt-4">
+                <div className="flex justify-center mt-4 mb-4 sm:mb-0">
                   <Voice src="ganariya.wav" />
                   <Voice src="ganbaru.wav" />
                   <Voice src="wakaranai.wav" />
