@@ -10,7 +10,7 @@ import {
 // https://zenn.dev/kaito18/articles/95ae3c2ecf09e3
 function Links() {
   return (
-    <div className="container mx-auto text-gray-700 mt-32 font-bold" id="links">
+    <div className="container mx-auto text-gray-700 mt-40 font-bold" id="links">
       <div className="flex flex-col justify-center items-center">
         <span className="text-4xl text-gray-800 mb-8">Links</span>
         <div className="w-10/12 mx-auto flex justify-center items-center space-x-8">

@@ -26,7 +26,7 @@ function Card(props) {
 
 function Works() {
   return (
-    <div className="container mx-auto text-gray-700 mt-32 font-bold" id="works">
+    <div className="container mx-auto text-gray-700 mt-40 font-bold" id="works">
       <div className="flex flex-col justify-center items-center px-8">
         <span className="text-4xl text-gray-800 mb-8">Works</span>
         <div className="flex flex-wrap mx-2">
