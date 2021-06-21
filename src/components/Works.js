@@ -6,6 +6,8 @@ function Card(props) {
       <div className="bg-white rounded-none p-6 border-4 border-black">
         <a href={props.link}>
           <img
+            loading="lazy"
+            decoding="async"
             src={`/${props.src}`}
             alt={props.alt}
             className="h-48 w-full object-cover object-center mb-8"
@@ -25,7 +27,7 @@ function Card(props) {
 function Works() {
   return (
     <div className="container mx-auto text-gray-700 mt-32 font-bold" id="works">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center px-8">
         <span className="text-4xl text-gray-800 mb-8">Works</span>
         <div className="flex flex-wrap mx-2">
           <Card
@@ -65,7 +67,7 @@ function Works() {
             title="AtCoder Action"
             src="github_action.jpg"
             alt="AtCoder README Action"
-            description="Solved README GA"
+            description="Solved GitHub Action"
             link="https://github.com/Ganariya/atcoder-readme-action"
           />
           <Card
