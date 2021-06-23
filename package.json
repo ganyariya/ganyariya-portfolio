@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@icons-pack/react-simple-icons": "^4.4.0",
+    "@react-three/fiber": "^7.0.1",
     "gatsby": "^3.6.2",
     "gatsby-image": "^3.7.1",
     "gatsby-plugin-gatsby-cloud": "^2.6.1",
@@ -20,7 +21,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-typing-animation": "^1.6.2"
+    "react-typing-animation": "^1.6.2",
+    "three": "^0.129.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
