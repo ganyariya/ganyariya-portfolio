@@ -14,19 +14,39 @@ function Links() {
       <div className="flex flex-col justify-center items-center">
         <span className="text-4xl text-gray-800 mb-8">Links</span>
         <div className="w-10/12 mx-auto flex justify-center items-center space-x-8">
-          <a href="https://github.com/ganyariya/ganyariya">
+          <a
+            href="https://github.com/ganyariya/ganyariya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Github size={36}></Github>
           </a>
-          <a href="https://twitter.com/ganyariya">
+          <a
+            href="https://twitter.com/ganyariya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Twitter size={36}></Twitter>
           </a>
-          <a href="mailto:ganariya2525@gmail.com">
+          <a
+            href="mailto:ganariya2525@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Gmail size={36}></Gmail>
           </a>
-          <a href="https://zenn.dev/ganariya">
+          <a
+            href="https://zenn.dev/ganariya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Zenn size={36}></Zenn>
           </a>
-          <a href="https://qiita.com/ganyariya">
+          <a
+            href="https://qiita.com/ganyariya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Qiita size={36}></Qiita>
           </a>
         </div>
