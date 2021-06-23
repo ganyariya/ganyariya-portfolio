@@ -4,7 +4,7 @@ function Card(props) {
   return (
     <div className="xl:w-1/4 md:w-1/2 p-4">
       <div className="bg-white rounded-none p-6 border-4 border-black">
-        <a href={props.link}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <img
             loading="lazy"
             decoding="async"
@@ -83,6 +83,13 @@ function Works() {
             alt="AtCoderBook Image"
             description="BookMark (deprecated)"
             link="https://chrome.google.com/webstore/detail/atcoderbook/lcojnofidkanlkoaagdbjkdnelbnlnng?hl=ja"
+          />
+          <Card
+            title="HideTimeline"
+            src="hide_twitter.jpg"
+            alt="Hide Twitter Timeline"
+            description="Hide Twitter TL"
+            link="https://greasyfork.org/ja/scripts/428329-hide-twitter-timeline"
           />
         </div>
       </div>
