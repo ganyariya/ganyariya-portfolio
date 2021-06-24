@@ -39,15 +39,19 @@ function Character() {
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
                 <p>筑波大学の情報系に通う修士 2 年生。</p>
-                <p>
-                  小さい頃は人と付き合うことが苦手だったらしい。
-                </p>
+                <p>小さい頃は人と付き合うことが苦手だったらしい。</p>
                 <p>
                   最近はかなり吹っ切れており、技術を学びながら楽しく生きている。
                 </p>
                 <p>好きなものは 開発・競技プログラミング・アニメ・ゲーム。</p>
-                <p>RainyBlueBell・電波少女・Fake Type などのネットラップをよく聞いている．</p>
+                <p>
+                  RainyBlueBell・電波少女・Fake Type
+                  などのネットラップをよく聞いている．
+                </p>
                 <p>卯月コウ & おりコウを推している。</p>
+                <p className="mt-2">
+                  人生を支えてくれたコンテンツに恩返しをしたい。
+                </p>
 
                 <div className="flex flex-col justify-center mt-8">
                   <span>Qualification</span>

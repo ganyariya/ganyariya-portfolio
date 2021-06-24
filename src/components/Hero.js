@@ -3,7 +3,7 @@ import Typing from "react-typing-animation"
 
 function Hero() {
   return (
-    <div className="container relative ">
+    <div className="container relative">
       <div className="h-screen flex justify-center flex-col items-center md:items-start">
         <h1 className="text-3xl tracking-tight font-bold text-gray-900 md:text-4xl md:ml-20">
           <Typing speed={80} className="block ">
