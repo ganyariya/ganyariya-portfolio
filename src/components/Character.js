@@ -50,7 +50,7 @@ function Character() {
                 </p>
                 <p>卯月コウ & おりコウを推している。</p>
                 <p className="mt-2">
-                  人生を支えてくれたコンテンツに恩返しをしたい。
+                  自分を支えてくれたコンテンツに恩返しがしたい。
                 </p>
 
                 <div className="flex flex-col justify-center mt-8">
