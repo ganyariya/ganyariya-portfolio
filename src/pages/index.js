@@ -9,12 +9,14 @@ import Works from "../components/Works"
 import Links from "../components/Links"
 import Footer from "../components/Footer"
 import Cursor from "../components/Cursor"
+import Background from "../components/Background"
 
 // https://github.com/innocenzi/tailwindcss-scroll-snap
 
 const IndexPage = () => {
   return (
     <div>
+      <Background />
       <PadContainer>
         <Cursor
           color="black"
