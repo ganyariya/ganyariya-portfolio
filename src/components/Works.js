@@ -35,7 +35,7 @@ function Works() {
             src="portfolio.jpg"
             alt="Portfolio"
             description="ポートフォリオサイト"
-            link="https://ganariya.netlify.app/"
+            link="https://ganyariya.netlify.app/"
           />
           <Card
             title="Tweet"
