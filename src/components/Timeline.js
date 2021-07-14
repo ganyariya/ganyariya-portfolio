@@ -56,7 +56,7 @@ function Timeline() {
                 date="2019/12"
                 title="第二回全国統一プログラミング王決定戦本戦"
               />
-              <Item date="2020/04" title="筑波大学へ" />
+              <Item date="2020/04" title="筑波大学大学院へ" />
               <Item date="2020/08" title="freee Summer Internship 2020" />
               <Item
                 date="2020/09 ~ 2020/12"
