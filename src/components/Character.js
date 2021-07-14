@@ -3,15 +3,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Applemusic } from "@icons-pack/react-simple-icons"
 
 function Voice(props) {
+  const audio = new Audio(props.src)
   return (
     <button
       className="p-2"
       onClick={() => {
-        const audio = new Audio(props.src)
-        audio.currentTime = 0.2
+        audio.currentTime = props.currentTime
         audio.volume = 0.5
         audio.play()
       }}
+      alt="ボイスサンプルを再生する"
     >
       <Applemusic size={32} />
     </button>
@@ -32,9 +33,9 @@ function Character() {
                   alt="ganyariya の画像"
                 ></StaticImage>
                 <div className="flex justify-center mt-4 mb-4 sm:mb-0">
-                  <Voice src="ganyariya.wav" />
-                  <Voice src="ganbaru.wav" />
-                  <Voice src="wakaranai.wav" />
+                  <Voice src="ganyariya.wav" currentTime={0.9} />
+                  <Voice src="ganbaru.wav" currentTime={0.5} />
+                  <Voice src="wakaranai.wav" currentTime={0.6} />
                 </div>
               </div>
               <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left">
