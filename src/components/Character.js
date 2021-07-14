@@ -1,16 +1,23 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Applemusic } from "@icons-pack/react-simple-icons"
 
 function Voice(props) {
-  const audio = new Audio(props.src)
+  const [state, setState] = useState({
+    audio: {},
+  })
+  useEffect(() => {
+    setState({
+      audio: new Audio(props.src),
+    })
+  }, [props.src])
   return (
     <button
       className="p-2"
       onClick={() => {
-        audio.currentTime = props.currentTime
-        audio.volume = 0.5
-        audio.play()
+        state.audio.currentTime = props.currentTime
+        state.audio.volume = 0.5
+        state.audio.play()
       }}
       alt="ボイスサンプルを再生する"
     >
