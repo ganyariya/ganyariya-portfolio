@@ -38,11 +38,18 @@ function Works() {
             link="https://ganyariya.netlify.app/"
           />
           <Card
+            title="derain"
+            src="derain.gif"
+            alt="deno with rain..."
+            description="deno with rain... (CLI)"
+            link="https://github.com/ganyariya/derain"
+          />
+          <Card
             title="Tweet"
             src="tweet.jpg"
             alt="Tweet CLI ライブラリ"
             description="ツイートだけできるCLI"
-            link="https://github.com/Ganariya/tweet"
+            link="https://github.com/ganyariya/tweet"
           />
           <Card
             title="Un/t/a/i/l"
@@ -54,7 +61,7 @@ function Works() {
             title="けもフレパズル"
             src="kemohure.jpg"
             alt="けもフレパズル"
-            description="Easy To Play!"
+            description="Easy To Play! (Siv3D)"
             link="https://www.youtube.com/watch?v=85Mms91TkM8"
           />
           <Card
@@ -68,7 +75,7 @@ function Works() {
             src="github_action.jpg"
             alt="AtCoder README Action"
             description="Solved GitHub Action"
-            link="https://github.com/Ganariya/atcoder-readme-action"
+            link="https://github.com/ganyariya/atcoder-readme-action"
           />
           <Card
             title="C-Notification"
