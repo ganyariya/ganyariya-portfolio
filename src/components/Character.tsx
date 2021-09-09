@@ -13,7 +13,8 @@ interface VoiceAudio {
 
 function Voice(props: VoiceProps) {
   const [state, setState] = useState<VoiceAudio>({
-    audio: new Audio(""),
+    // @ts-ignore eslint-disable-next-line
+    audio: {},
   })
   useEffect(() => {
     setState({
