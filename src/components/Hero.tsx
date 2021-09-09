@@ -1,7 +1,7 @@
 import React from "react"
 import Typing from "react-typing-animation"
 
-function Hero() {
+const Hero = () => {
   return (
     <div className="container relative">
       <div className="h-screen flex justify-center flex-col items-center md:items-start">

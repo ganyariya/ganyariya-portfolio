@@ -1,6 +1,6 @@
 import React from "react"
 
-function PadContainer(props) {
+const PadContainer = (props: any) => {
   return <div className="mx-auto container px-10">{props.children}</div>
 }
 

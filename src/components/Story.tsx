@@ -1,6 +1,6 @@
 import React from "react"
 
-function Story() {
+const Story = () => {
   return (
     <div className="container mx-auto text-gray-700 font-bold" id="story">
       <div className="flex flex-col justify-center items-center">

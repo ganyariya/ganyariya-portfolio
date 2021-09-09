@@ -4,7 +4,13 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const DynamicImage = props => (
+interface DynamicImageProps {
+  filename: string
+  alt: string
+  cls: string
+}
+
+const DynamicImage = (props: DynamicImageProps) => (
   <StaticQuery
     query={graphql`
       query {
@@ -24,7 +30,7 @@ const DynamicImage = props => (
       }
     `}
     render={data => {
-      const image = data.images.edges.find(n => {
+      const image = data.images.edges.find((n: any) => {
         return n.node.relativePath.includes(props.filename)
       })
       if (!image) {
