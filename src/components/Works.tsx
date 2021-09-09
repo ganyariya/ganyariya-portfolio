@@ -1,6 +1,14 @@
 import React from "react"
 
-function Card(props) {
+interface CardProps {
+  link?: string
+  alt: string
+  src: string
+  title: string
+  description: string
+}
+
+const Card = (props: CardProps) => {
   return (
     <div className="xl:w-1/4 md:w-1/2 p-4">
       <div className="bg-white rounded-none p-6 border-4 border-black">
@@ -24,7 +32,7 @@ function Card(props) {
   )
 }
 
-function Works() {
+const Works = () => {
   return (
     <div className="container mx-auto text-gray-700 mt-40 font-bold" id="works">
       <div className="flex flex-col justify-center items-center px-8">
