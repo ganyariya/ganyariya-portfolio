@@ -36,6 +36,7 @@ const Cursor = ({
     }
     document.onclick = event => {
       let node = document.elementFromPoint(event.x, event.y)
+      if (!node) return
       if (
         node.getAttribute("onclick") != null ||
         node.getAttribute("href") != null
@@ -61,7 +62,8 @@ const Cursor = ({
     transitionDuration: duration + "s",
     mixBlendMode: blendMode,
   }
-  return <div id="cursor" {...rest} style={!custom ? styles : null} />
+  // @ts-ignore eslint-disable-next-line
+  return <div id="cursor" {...rest} style={!custom ? styles : styles} />
 }
 
 export default Cursor

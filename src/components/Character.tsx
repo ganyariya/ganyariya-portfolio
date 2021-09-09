@@ -2,9 +2,18 @@ import React, { useState, useEffect } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Applemusic } from "@icons-pack/react-simple-icons"
 
-function Voice(props) {
-  const [state, setState] = useState({
-    audio: {},
+interface VoiceProps {
+  src: string
+  currentTime: number
+}
+
+interface VoiceAudio {
+  audio: HTMLAudioElement
+}
+
+function Voice(props: VoiceProps) {
+  const [state, setState] = useState<VoiceAudio>({
+    audio: new Audio(""),
   })
   useEffect(() => {
     setState({
@@ -19,14 +28,13 @@ function Voice(props) {
         state.audio.volume = 0.5
         state.audio.play()
       }}
-      alt="ボイスサンプルを再生する"
     >
       <Applemusic size={32} />
     </button>
   )
 }
 
-function Character() {
+const Character = () => {
   return (
     <div className="container mx-auto mt-40 font-bold" id="character">
       <section className="text-gray-700 body-font">
