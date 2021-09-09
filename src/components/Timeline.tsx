@@ -1,6 +1,12 @@
 import React from "react"
 
-function Item(props) {
+interface ItemProps {
+  date: string
+  title: string
+  text?: string
+}
+
+const Item = (props: ItemProps) => {
   return (
     <li className="mb-6">
       <div className="flex items-center mb-1">
@@ -9,12 +15,12 @@ function Item(props) {
           ({props.date}) &nbsp;&nbsp; {props.title}
         </div>
       </div>
-      <div className="ml-20">{props.text}</div>
+      <div className="ml-20">{props.text ?? ""}</div>
     </li>
   )
 }
 
-function Timeline() {
+const Timeline = () => {
   return (
     <div
       className="container mx-auto text-gray-700 font-bold mt-12 md:mt-12"

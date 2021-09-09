@@ -8,7 +8,7 @@ import {
 } from "@icons-pack/react-simple-icons"
 
 // https://zenn.dev/kaito18/articles/95ae3c2ecf09e3
-function Links() {
+const Links = () => {
   return (
     <div className="container mx-auto text-gray-700 mt-40 font-bold" id="links">
       <div className="flex flex-col justify-center items-center">

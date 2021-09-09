@@ -23,9 +23,12 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-typing-animation": "^1.6.2",
-    "three": "^0.129.0"
+    "three": "^0.129.0",
+    "typescript": "^4.4.2"
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.2",
+    "@types/react-typing-animation": "^1.6.3",
     "autoprefixer": "^10.2.6",
     "gatsby-plugin-postcss": "^4.7.1",
     "postcss": "^8.3.5",
@@ -43,6 +46,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "typecheck": "tsc",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
