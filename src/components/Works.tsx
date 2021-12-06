@@ -60,6 +60,13 @@ const Works = () => {
             link="https://github.com/ganyariya/tweet"
           />
           <Card
+            title="Text Glitch"
+            src="text_glitch.jpg"
+            alt="Text Glitch"
+            description="React Glitch Effect"
+            link="https://github.com/ganyariya/text_glitch"
+          />
+          <Card
             title="Un/t/a/i/l"
             src="under.gif"
             alt="Undertale"
